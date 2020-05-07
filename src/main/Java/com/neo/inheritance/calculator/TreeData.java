@@ -1,13 +1,7 @@
 package com.neo.inheritance.calculator;
 
-import java.util.Scanner;
 
 public class TreeData extends Calculator {
-
-    public static void main(String[] args) {
-
-
-        Scanner scanner = new Scanner(System.in);
 
 
 
@@ -19,14 +13,18 @@ public class TreeData extends Calculator {
 
 //  2.54cm * 12in * 20feet * 365days * 20years = total number of inches
 
+    static public class Data {
+
+        static double cm = 2.54;
+        static int inches = 12;
+        static int feet = 20;
+        static int days = 365;
+        static int years = 20;
+        static long rate;
 
 
-        double cm = 2.54;
-        int inches = 12;
-        int feet = 20;
-        int days = 365;
-        int years = 20;
-        long rate;
 
     }
+
+
 }

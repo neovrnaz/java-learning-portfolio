@@ -4,12 +4,13 @@ public class Calculator {
 
     TreeData a = new TreeData();
 
-    a.rate
 
-    public long Cal() {
+    public void Cal() {
 
-    rate = (long) (cm * inches * feet * days * years);
-        System.out.println(rate);
+
+
+        System.out.println(TreeData.Data.rate = (long) (TreeData.Data.cm * TreeData.Data.inches * TreeData.Data.feet * TreeData.Data.days * TreeData.Data.years));
+
     }
 
 
