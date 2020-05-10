@@ -1,5 +1,7 @@
 package com.neo.inheritance.calculator;
 
+import java.util.Scanner;
+
 public class Calculator {
 
     TreeData a = new TreeData();
@@ -7,9 +9,24 @@ public class Calculator {
 
     public void Cal() {
 
+        double cm = 2.54;
+        long inches = 12;
+        long feet = 20;
+        long days = 365;
+        long years = 20;
+        long rate;
 
 
-        System.out.println(TreeData.Data.rate = (long) (TreeData.Data.cm * TreeData.Data.inches * TreeData.Data.feet * TreeData.Data.days * TreeData.Data.years));
+
+        try {
+            rate = (long) (cm * inches * feet * days * years);
+            System.out.println(rate);
+        }
+
+        catch (Exception e) {
+
+            System.out.println("INVALID INPUT");
+        }
 
     }
 

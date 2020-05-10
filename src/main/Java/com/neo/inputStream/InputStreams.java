@@ -5,6 +5,8 @@ import java.io.IOException;
 
 public class InputStreams {
 
+
+
 //  When using an input stream, you need us throws IOException
 
 
@@ -18,8 +20,8 @@ public class InputStreams {
 //  Allows you to input information to the keyboard
 
 
-        //  Print Character
         System.out.println(input + "\n\nAskii Key" + "\n---------\n\n");
+//  Askii stands for American Standard Code for Information Interchange
 
 
         try {

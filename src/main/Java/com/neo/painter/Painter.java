@@ -10,7 +10,7 @@ public class Painter {
     private String painterName;
     private int timepainting;
     private int updates;
-    public static final int MAX_UPDATES = 3;
+    private static final int MAX_UPDATES = 3;
 
     public Painter(String painter) {
         painterName = painter;
