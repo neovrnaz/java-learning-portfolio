@@ -18,7 +18,6 @@ public class RegularExpressions {
 
         Matcher regexMatcher = checkRegex.matcher(str2Check);
 
-        while
     }
 }
 

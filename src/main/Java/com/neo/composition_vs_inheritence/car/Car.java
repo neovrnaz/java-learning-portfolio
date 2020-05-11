@@ -2,6 +2,8 @@ package com.neo.composition_vs_inheritence.car;
 
 public class Car extends Vehicle {
 
+//  POP quiz! Is this an example of inheritence or composition?
+
 //  The statement "Car is a vehicle" is correct when dealing with Inheritence
 //  The statemnt "Car has a relationship with a vehicle" is correct when dealing with Composition
 

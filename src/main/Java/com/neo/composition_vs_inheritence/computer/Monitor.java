@@ -4,6 +4,10 @@ public class Monitor {
     private String model;
     private String manufacturer;
     private int size;
+
+//  This is an example of composition. The resolution class is part of the monitor.
+//  The monitor isn't a resolution, but it has a resolution
+//  We are saying that the resolution is part of a monitor
     private Resolution nativeResolution;
 
     public Monitor(String model, String manufacturer, int size, Resolution nativeResolution) {
@@ -15,7 +19,7 @@ public class Monitor {
 
     public void drawPixelAt(int x, int y, String color) {
 
-        System.out.println("Drawing pixel at " + x + "," + y + "in color: " + color);
+        System.out.println("Drawing pixel at " + x + "," + y + " In color: " + color);
     }
 
     public String getModel() {
