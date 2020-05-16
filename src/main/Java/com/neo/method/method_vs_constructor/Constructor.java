@@ -1,7 +1,6 @@
-package com.neo.method;
+package com.neo.method.method_vs_constructor;
 
-public class Main {
-
+public class Constructor {
 
     MethodVsConstructor frankLloydWright = new MethodVsConstructor("");
 }

@@ -1,22 +1,24 @@
-package com.neo.composition_vs_inheritence.computer;
+package com.neo.composition_vs_inheritence.apartment;
 
 public class Dimensions {
-    private int width;
     private int height;
+    private int width;
     private int depth;
 
-    public Dimensions(int width, int height, int depth) {
-        this.width = width;
-        this.height = height;
-        this.depth = depth;
-    }
 
-    public int getWidth() {
-        return width;
+
+    public Dimensions(int height, int width, int depth) {
+        this.height = height;
+        this.width = width;
+        this.depth = depth;
     }
 
     public int getHeight() {
         return height;
+    }
+
+    public int getWidth() {
+        return width;
     }
 
     public int getDepth() {

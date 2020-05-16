@@ -1,4 +1,4 @@
-package com.neo.method;
+package com.neo.method.method_vs_constructor;
 
 
 
@@ -8,8 +8,6 @@ package com.neo.method;
 class MethodVsConstructor {
 
     private static String constructor = "test";
-
-
 // A constructor is a method that will run when you instantiate a class
 // Instantiation happens when you create a new instance of a class
 
@@ -27,19 +25,11 @@ class MethodVsConstructor {
     }
 
 
-    static class Geek
-    {
-
-        Geek(){}
-    }
-
-
 
 
     public MethodVsConstructor(String  constructorMethod) {
         constructor = constructorMethod;
     }
-
 
 
     public String getConstructor() {

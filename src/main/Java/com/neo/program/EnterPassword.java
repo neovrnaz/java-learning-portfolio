@@ -14,8 +14,6 @@ public class EnterPassword {
 
 
 
-
-
         PasswordChecker program = new PasswordChecker();
 
 

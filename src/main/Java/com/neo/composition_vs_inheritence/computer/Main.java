@@ -6,7 +6,7 @@ public class Main {
 
 //  This is the result of composition
 
-        Dimensions dimensions = new Dimensions("20", "20", "5");
+        Dimensions dimensions = new Dimensions(20, 20, 5);
         Case theCase = new Case("220B", "Dell", "240", dimensions);
 
 
