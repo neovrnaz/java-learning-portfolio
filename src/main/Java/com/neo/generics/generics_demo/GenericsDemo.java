@@ -1,4 +1,4 @@
-package com.neo.generics;
+package com.neo.generics.generics_demo;
 
 //  Generics enable types (classes and interfaces) to be parameters when defining classes, interfaces and methods.
 //  Type parameters provide a way for you to reuse the same code with different inputs.

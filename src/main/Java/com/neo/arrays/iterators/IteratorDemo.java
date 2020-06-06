@@ -23,7 +23,7 @@ public class IteratorDemo {
 
 //      Iterate over an array list
 //          |
-//         |
+//          |
         ArrayList<Integer>list = new ArrayList<Integer>();
 
 
