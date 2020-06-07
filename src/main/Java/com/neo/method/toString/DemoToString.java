@@ -37,8 +37,6 @@ class Student extends Object {
 
 //     Notice what prints out when you delete the method below
 //      |
-
-
     @Override
     public String toString() {
         return "Student{" +
