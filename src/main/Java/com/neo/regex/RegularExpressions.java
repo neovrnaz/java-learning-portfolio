@@ -1,4 +1,4 @@
-package com.neo.regx;
+package com.neo.regex;
 
 import java.util.regex.*;
 
