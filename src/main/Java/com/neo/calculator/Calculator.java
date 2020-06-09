@@ -1,13 +1,11 @@
 package com.neo.calculator;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 
 import java.util.Scanner;
 
-public class Sample {
+public class Calculator {
 
-
-
+// A calculator that divides two numbers
 
     public static void main(String[] args) {
 
@@ -41,15 +39,5 @@ public class Sample {
             }
         } while (x == 1);
 
-
-
-
-
-
     }
-
-
-
-
-
 }

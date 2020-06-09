@@ -42,8 +42,8 @@ public class GenericsDemo {
 //                   |
         Container<Integer> obj = new Container<>();
 //                  |
-//              This extends number class. Is you go to declaration, you will see that Integer extends the "Number" class.
-//              If you want the "T" in "class Container<T>" to only support numbers, then you should add "extends Numbers at the end of "T".
+//              This extends number class. If you go to declaration, you will see that Integer extends the "Number" class.
+//              If you want the "T" in "class Container", to only support numbers, then you should add "extends Numbers at the end of "T".
 //              Example: class Container<T extends Numbers>
 
 

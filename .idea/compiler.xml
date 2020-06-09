@@ -6,17 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="LearningPortfolio" />
+        <module name="learning-portfolio" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8">
-      <module name="LearningPortfolio" target="1.8" />
+    <bytecodeTargetLevel target="14">
+      <module name="learning-portfolio" target="14" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_STRING" value="-Xlint:unchecked" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="LearningPortfolio" options="" />
+      <module name="learning-portfolio" options="" />
     </option>
   </component>
 </project>
